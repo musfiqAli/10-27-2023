@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+
+  html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color:aqua;
+  }
+.wrapper{
+    width: 300px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .wrapper .title{
+    background-color: cornflowerblue;
+   line-height: 80px;
+   padding-left: 20px;
+   border-radius: 5px;
+   font-size: 25px;
+   color: azure;
+   font-weight: 600;
+  }
+.wrapper form{
+   padding: 20px;
+}
+.wrapper form .row{
+    
+    height: 45px;
+   margin-bottom: 20px;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+}
+.wrapper form .row i{
+    position: absolute;
+}
+
+.marakha{
+    border-radius: 20px;
+    background-color: rgb(228, 25, 177);
+    font-size: 100px;
+  
+}
+
+.marakha b{
+   
+    position: absolute;
+    padding-left: 50px;
+}
+.marakha i{
+    padding: 10px;
+
+}
